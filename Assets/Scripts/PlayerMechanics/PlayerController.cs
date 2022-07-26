@@ -1,14 +1,13 @@
 using System;
 using UnityEngine;
 
+// тут короче управление игроком заебал
 public class PlayerController : MonoBehaviour
 {
     public float speed = 0.05f;
     public float jumpForce = 1f;
     private Rigidbody2D _player;
     public float maxSpeed;
-
-    public PatrolPath platform;
 
     private bool _isGrounded;
     public Transform pos;

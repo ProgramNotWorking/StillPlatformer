@@ -6,7 +6,8 @@ public class TestHealthbar : MonoBehaviour
     public GameObject health1;
     public GameObject health2;
     public GameObject health3;
-
+    // просто тестовый образец полоски хп(те самые уезжающие шарики)
+    
     void FixedUpdate()
     {
         if (playerHealth.playerHealth == 2)

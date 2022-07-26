@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class HitTrigger : MonoBehaviour
 {
-    public PlayerHealthMecanics playerHealthMecanics;
+    public PlayerHealthMecanics playerHealthMecanics; // ссылаемся на кол-во хп(так же из другого скрипта)
     private int _minusHealthPerHit = 1;
     private bool _isTakenDamage;
     private float _timeForDamage = 2.5f;
@@ -29,6 +29,7 @@ public class HitTrigger : MonoBehaviour
         if (!_isTakenDamage)
         {
             playerHealthMecanics.playerHealth -= _minusHealthPerHit;
+            // вычитаем из текущего хп 1 если задели триггер противника(котрый сбоку и снизу)
         }
         else
         {

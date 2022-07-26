@@ -7,6 +7,8 @@ public class ButtonTrigger : MonoBehaviour
     private Vector2 _doorPosition;
     public float openingSpeed;
     
+    // при задевании триггера кнопки, дверь двигается до заданной точки
+    
     void Start()
     {
         _doorPosition = openDoorPosition.transform.position;

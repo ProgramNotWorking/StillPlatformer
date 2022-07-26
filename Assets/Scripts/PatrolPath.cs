@@ -13,6 +13,8 @@ public class PatrolPath : MonoBehaviour
     private float _timeWait;
     // true-> to endPosition
     // false -> to startPosition
+    
+    // скрипт который заставляет объект двигаться от своего первоначального положения до заданной точки
 
     void Start()
     {
