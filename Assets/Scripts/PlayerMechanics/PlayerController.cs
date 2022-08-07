@@ -45,7 +45,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        // try ro do this more effective
+        // try to do this more effective
 
         if (collision.gameObject.layer == 7)
         {

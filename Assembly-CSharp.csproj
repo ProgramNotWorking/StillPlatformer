@@ -46,8 +46,10 @@
      <Compile Include="Assets\Scripts\ButtonTrigger.cs" />
      <Compile Include="Assets\Scripts\EnemysMechanics\DeathZone.cs" />
      <Compile Include="Assets\Scripts\EnemysMechanics\EnemyDeathTrigger.cs" />
+     <Compile Include="Assets\Scripts\RotationTest.cs" />
      <Compile Include="Assets\Scripts\ExitScript.cs" />
      <Compile Include="Assets\Scripts\EnemysMechanics\HitTrigger.cs" />
+     <Compile Include="Assets\Scripts\EnemysMechanics\SpiderPatrolPath.cs" />
      <Compile Include="Assets\Scripts\PatrolPath.cs" />
      <Compile Include="Assets\Scripts\PlayerMechanics\TestHealthbar.cs" />
      <Reference Include="UnityEngine">
